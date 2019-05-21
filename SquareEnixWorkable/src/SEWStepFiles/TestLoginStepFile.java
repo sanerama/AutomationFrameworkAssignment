@@ -53,13 +53,15 @@ public class TestLoginStepFile extends Hooks {
 	@Then("^User navigates to user's homepage$")
 	public void user_navigates_to_user_s_homepage() throws Throwable {
 		
-		/* SessionId session =((ChromeDriver)driver).getSessionId();
-
-		System.out.println("Session id: " + session.toString());*/
 		
-		/*todo: get session info from and validate.
+		/***********************
+		todo: get session info from and validate.
+		HttpGet request = new HttpGet(url);
+		SessionId session =((ChromeDriver)driver).getSessionId();
+		request.setHeader("Cookie", session.toString());
 		 * Need to get the token by correlating from previous request where it
-		 * Contains authentication id and then use it while posting*/
+		 * Contains authentication id and then use it while posting
+		 ******************/
 		
 		
 	}
